@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(194, 218, 240, 0.521);
+}
+
+body p{
+    font-family: 'Akshar';
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.26);
+    border: 3px solid rgba(95, 173, 236, 0.315);
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.leftnav img{
+    width: 40px;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 3px;
+}
+
+.rightnav ul li {
+    display: inline-block;
+    /* padding-right: 30px; */
+}
+
+
+.btn1{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn1:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.btn2{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn2:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+
+.btn3{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn3:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.btn4{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn4:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.btn5{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn5:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    z-index: -1;
+    background-image: url("Images/history.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+
+
+.content{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 75px;
+    text-align: center;
+}
+
+.content h1{
+    padding-bottom: 30px;
+    font-size: 45px;
+}
+
+.last{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background-color: rgb(160, 196, 220);
+    margin-top: 80px;
+}
+
+.icon a img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.insta{
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.linkedin{
+    margin-top: 50px;
+    right: 185px;
+}
+
+.twitter{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 667px;
+}
+
+.footer1{
+    padding-top: 120px;
+    padding-left: 50px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+

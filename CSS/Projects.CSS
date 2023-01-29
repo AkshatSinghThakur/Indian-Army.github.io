@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(194, 218, 240, 0.521);
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.26);
+    border: 3px solid rgba(95, 173, 236, 0.315);
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    margin-top: -100px;
+}
+
+.nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.leftnav img{
+    width: 40px;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 3px;
+}
+
+.rightnav ul li {
+    display: inline-block;
+    /* padding-right: 30px; */
+}
+
+
+.btn1{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn1:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.btn2{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn2:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+
+.btn3{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn3:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.btn4{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn4:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.btn5{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn5:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+
+#achievements{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 2500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    /* z-index: 1; */
+    position: relative;
+    margin-top: 100px;
+}
+
+.intro{
+    position: absolute;
+    font-size: 35px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+.filter button{
+    height: 30px;
+    width: 130px;
+    background-color: rgb(98, 98, 235);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.filterAirForce{
+    margin-right: 40px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.filterAirForce:hover{
+    height: 35px;
+    width: 135px;
+}
+
+.filterNavy{
+    margin-right: 40px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.filterNavy:hover{
+    height: 35px;
+    width: 135px;
+}
+
+.filteIndianArmy{
+    margin-right: 40px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.filteIndianArmy:hover{
+    height: 35px;
+    width: 135px;
+}
+
+.win{
+    width: 40%;
+    height: 520px;
+    background-color: rgb(60, 60, 241);
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contimg{
+    width: 100%;
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
+
+.missionName{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+.missionBtn{
+    width: 150px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.win h3{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.last{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background-color: rgb(160, 196, 220);
+    margin-top: 80px;
+}
+
+.icon a img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.insta{
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.linkedin{
+    margin-top: 50px;
+    right: 185px;
+}
+
+.twitter{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 667px;
+}
+
+.footer1{
+    padding-top: 120px;
+    padding-left: 50px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+

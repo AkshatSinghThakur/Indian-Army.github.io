@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(194, 218, 240, 0.521);
+}
+
+.cont{
+    /* position: relative; */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("Landing Image.jpg");  
+}
+
+.nav{
+    /* position: absolute; */
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.26);
+    border: 3px solid rgba(95, 173, 236, 0.315);
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.leftnav img{
+    width: 40px;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 3px;
+}
+
+.rightnav ul li {
+    display: inline-block;
+    /* padding-right: 30px; */
+}
+
+
+.btn1{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn1:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.btn2{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn2:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+
+.btn3{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn3:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.btn4{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn4:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+.btn5{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.btn5:hover{
+    background-color: rgba(48, 145, 224, 0.219);
+}
+
+
+.heading{
+    position: absolute;
+    color: orangered;
+    margin-top: 60px;
+    right: 794px;
+    font-size: 25px;
+}
+
+.sub-heading{
+    position: absolute;
+    color: white;
+    margin-top: 115px;
+    right: 710px;
+    font-size: 27px;
+}
+
+.last-heading{
+    position: absolute;
+    color: green;
+    margin-top: 170px;
+    right: 675px;
+    font-size: 25px;
+}
+
+.joinBtn{
+    margin-top: 550px;
+    margin-left: 580px;
+    width: 140px;
+    height: 50px;
+    background-color: rgba(18, 163, 247, 0.781);
+    border: 2px solid rgba(18, 163, 247, 0.781);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.jointext{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.leaders{
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+
+.chief{
+    width: 27%;
+    height: 400px;
+    background-color: rgb(60, 60, 241);
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 130px;
+    z-index: -1;  /* brings nav bar back to an element */
+}
+
+.imgholder{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background-color: black;
+    position: absolute;
+    border: 5px solid rgb(194, 218, 240);
+    border-radius: 120px;
+    top: 170px;
+}
+
+.Head{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 120px;
+}
+
+.intro{
+    position: absolute;
+    top: 20px;
+    font-size: 50px;
+}
+
+.about{
+    width: 75%;
+    height: 900px;
+    margin-left: 120px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 22px;
+}
+
+.about p{
+    padding-top: 100px;
+}
+
+.achievements{
+    width: 100%;
+    height: 1500px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.win{
+    width: 30%;
+    height: 450px;
+    background-color: rgb(60, 60, 241);
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.contimg{
+    width: 100%;
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
+
+.missionName{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+.missionBtn{
+    width: 150px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 19px;
+    margin-left: 20px;
+}
+
+.win h3{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* .aboutSection{
+    width: 100%;
+    height: 170px;
+    border: 1px solid black;
+} */
+.aboutSection p{
+    width: 90%;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.referenceLink{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.referenceLink ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.referenceLink ul li a{
+    text-decoration: none;
+}
+
+.last{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background-color: rgb(160, 196, 220);
+}
+
+.icon a img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.insta{
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.linkedin{
+    margin-top: 50px;
+    right: 185px;
+}
+
+.twitter{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 667px;
+}
+
+.footer1{
+    padding-top: 120px;
+    padding-left: 50px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+
